@@ -10,5 +10,5 @@ Passos a seguir após clonar o projeto
 
 Informações para Login<br/>
 <br/><br/>
-Login:usuario@teste.com.br <br/>
+Login: usuario@teste.com.br <br/>
 Senha: teste123<br/>
