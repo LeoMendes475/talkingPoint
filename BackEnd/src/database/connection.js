@@ -8,8 +8,8 @@ async function connect() {
     const connection = await mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: 'JadenJaden77',
-        database: 'talkingpoint'
+        password: '',
+        database: ''
     });
 
     return connection;
