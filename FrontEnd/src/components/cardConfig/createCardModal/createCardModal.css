@@ -1,0 +1,14 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 20px;
+}
+
+.close-button {
+    cursor: pointer; 
+    transform: translate(440px, -110px); 
+    font-size: 26px
+}

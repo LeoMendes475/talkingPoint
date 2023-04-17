@@ -1,0 +1,136 @@
+.card {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+
+    width: 341px;
+    height: 191px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #476EE6;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+}
+
+.card hr {
+    /* Line 1 */
+
+    width: 301px;
+    height: 0px;
+
+    /* Border */
+
+    border: 1px solid #E4E4EF;
+
+    /* Inside auto layout */
+
+    /* flex: none;
+    order: 1;
+    flex-grow: 0; */
+
+    margin: 30px 0 20px;
+}
+
+.card .informations-card .title {
+    /* position: absolute; */
+    width: 237px;
+    height: 19px;
+    left: 41px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.card .informations-card .date {
+    /* 13/11/2023 - 09:00-12:30 */
+    /* position: absolute; */
+    width: 189px;
+    height: 14px;
+    left: 41px;
+    top: 29px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height, or 117% */
+
+    letter-spacing: 0.75px;
+
+    color: #476EE6;
+}
+
+.card .participants {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .participants .responsability {
+    /* Organizador */
+
+
+    width: 88px;
+    height: 19px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+
+    display: flex;
+    align-items: center;
+
+    /* Text/Secondary */
+
+    color: #808080;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.card .participants .participant {
+    /* Mateus barbosa */
+    /* position: absolute; */
+    width: 100%;
+    height: 22px;
+    /* left: 184px;
+    top: 6px; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    overflow-x: hidden;
+
+
+    /* Black Color */
+
+    color: #101828;
+    padding-left: 20px;
+}

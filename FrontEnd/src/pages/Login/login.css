@@ -1,0 +1,56 @@
+.login {
+    display: flex;
+    flex-direction: row;
+}
+
+.login form input {
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+
+    margin-bottom: 20px;
+    padding: 4px 16px;
+}
+
+.login form input::placeholder {
+    font-weight: 600;
+}
+
+.login form label {
+    padding-bottom: 8px;
+}
+
+.login .userInfo .logoLogin {
+    width: 250px;
+    height: 60px;
+}
+
+.login h1 {
+    color: #476ee6;
+    margin: 45px 0;
+    font-size: 26px;
+}
+
+.imgLogin {
+    height: 99.99vh;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 20rem;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #476ee6;
+}
+
