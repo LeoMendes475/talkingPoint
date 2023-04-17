@@ -48,6 +48,7 @@ const search = {
   height: '34px',
   border: '1px solid #ccc',
   borderRadius: '20px',
+  padding: '0 4px',
   marginRight: '8px'
 }
 
