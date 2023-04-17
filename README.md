@@ -8,7 +8,7 @@ Passos a seguir após clonar o projeto
 2 - npx sequelize-cli db:create <br/>
 3 - npx sequelize-cli db:migrate <br/>
 <br/>
-Informações para Login<br/>
+Informações para Login:<br/>
 <br/>
 Login: usuario@teste.com.br <br/>
 Senha: teste123<br/>
